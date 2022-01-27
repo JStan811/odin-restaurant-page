@@ -1,3 +1,5 @@
-import pageLoad from './pageLoad';
+import renderHomeTab from './homeTab';
+import renderMenuTab from './menuTab';
+import renderContactTab from './contactTab'
 
-pageLoad();
+renderHomeTab();
