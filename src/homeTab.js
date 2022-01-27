@@ -3,6 +3,7 @@ import donutImage from './donuts.jpeg';
 
 function renderHomeTab() {
   const body = document.querySelector('body');
+  const homeTabNavItem = document.querySelector('#home')
 
   const contentDiv = document.createElement('div');
   const restaurantImage = document.createElement('img');
@@ -22,4 +23,6 @@ function renderHomeTab() {
   contentDiv.appendChild(restaurantCopy);
 
   body.appendChild(contentDiv);
+
+  homeTabNavItem.style.background = '#ffffff';
 }

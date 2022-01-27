@@ -2,6 +2,7 @@ export default renderMenuTab;
 
 function renderMenuTab() {
   const body = document.querySelector('body');
+  const menuTabNavItem = document.querySelector('#menu')
 
   const contentDiv = document.createElement('div');
   const menuHeading = document.createElement('h1');
@@ -32,4 +33,6 @@ function renderMenuTab() {
   contentDiv.appendChild(menuList);
 
   body.appendChild(contentDiv);
+
+  menuTabNavItem.style.background = '#ffffff';
 }

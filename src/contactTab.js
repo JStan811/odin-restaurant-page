@@ -2,6 +2,7 @@ export default renderContactTab;
 
 function renderContactTab() {
   const body = document.querySelector('body');
+  const contactTabNavItem = document.querySelector('#contact')
 
   const contentDiv = document.createElement('div');
   const contactHeading = document.createElement('h1');
@@ -33,4 +34,6 @@ function renderContactTab() {
   contentDiv.appendChild(emailInfo);
 
   body.appendChild(contentDiv);
+
+  contactTabNavItem.style.background = '#ffffff';
 }
