@@ -6,5 +6,5 @@ by Jake Standley
 
 Skills demonstrated
   - NPM
-  - DOM Manipulation
   - webpack
+  - DOM Manipulation
