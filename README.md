@@ -4,6 +4,8 @@ This project is from [Odin](https://www.theodinproject.com/paths/full-stack-ruby
 
 by Jake Standley
 
+[Live Preview](https://jstan811.github.io/odin-restaurant-page/)
+
 Skills demonstrated
   - NPM
   - webpack
