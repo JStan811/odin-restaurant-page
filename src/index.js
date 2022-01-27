@@ -1,6 +1,8 @@
 import renderHomeTab from './homeTab';
 import renderMenuTab from './menuTab';
-import renderContactTab from './contactTab'
+import renderContactTab from './contactTab';
+import './normalize.css';
+import './style.css';
 
 // write main code as IIFE to not polute global scope
 (function () {
