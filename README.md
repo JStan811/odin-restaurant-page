@@ -8,3 +8,7 @@ Skills demonstrated
   - NPM
   - webpack
   - DOM Manipulation
+
+How to use
+  - git clone...
+  - run npm install
