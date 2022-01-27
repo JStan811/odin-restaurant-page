@@ -1,1 +1,3 @@
-console.log('One second at a time...');
+import pageLoad from './pageLoad';
+
+pageLoad();
