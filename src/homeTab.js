@@ -1,14 +1,16 @@
-export default pageLoad;
+export default renderHomeTab;
 import donutImage from './donuts.jpeg';
 
-function pageLoad() {
-  const contentDiv = document.querySelector('div#content');
+function renderHomeTab() {
+  const body = document.querySelector('body');
 
+  const contentDiv = document.createElement('div');
   const restaurantImage = document.createElement('img');
   const restaurantName = document.createElement('h1');
   const tagLine = document.createElement('h2');
   const restaurantCopy = document.createElement('p');
 
+  contentDiv.id = 'content';
   restaurantImage.src = donutImage;
   restaurantName.textContent = 'Go Nuts for Do Nuts';
   tagLine.textContent = "Seriously, who doesn't like donuts??";
@@ -18,4 +20,6 @@ function pageLoad() {
   contentDiv.appendChild(restaurantName);
   contentDiv.appendChild(tagLine);
   contentDiv.appendChild(restaurantCopy);
+
+  body.appendChild(contentDiv);
 }
