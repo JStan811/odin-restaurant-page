@@ -5,7 +5,6 @@ This project is from [Odin](https://www.theodinproject.com/paths/full-stack-ruby
 by Jake Standley
 
 [Live Preview](https://jstan811.github.io/odin-restaurant-page/)
-(not currently working... something went wrong with the gh-pages / dist directory set up)
 
 Skills demonstrated
   - NPM
